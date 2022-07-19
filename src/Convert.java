@@ -20,7 +20,6 @@ public class Convert {
             else if (nume == 2) return "II";
             else if (nume == 3) return "III";
             else if (nume == 4) return "IV";
-            // На выходе числа не ограничиваются по величине и могут быть любыми.
             else if (nume == 5) return "V";
             else if (nume == 6) return "VI";
             else if (nume == 7) return "VII";
