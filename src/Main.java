@@ -1,3 +1,5 @@
+import com.sun.source.tree.IfTree;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -31,6 +33,11 @@ public class Main {
                 returnFirst = Integer.parseInt(num1);
                 returnSecond = Integer.parseInt(num2);
                 arabicResult = Calc.calc(returnFirst, returnSecond, operator);
+
+                if (arabicResult <0) {
+                    throw new MyException("Отрицательный ответ");
+                }
+
                 System.out.println(arabicResult);
 
             } else throw new MyException("Вы допустили ошибку,попробуйте еще раз!");

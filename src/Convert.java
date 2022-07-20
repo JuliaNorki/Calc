@@ -116,7 +116,7 @@ public class Convert {
             else if (nume == 98) return "XCVIII";
             else if (nume == 99) return "XCIX";
             else if (nume == 100) return "C";
-            else throw new MyException("");
+            else throw new MyException("Получилось Много, попробуйте еще раз");
         }
 
     }
